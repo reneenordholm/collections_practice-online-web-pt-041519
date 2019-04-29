@@ -38,3 +38,4 @@ def add_s(array)
   if index[3..-1] = element + "s"
   }
 end
+end
