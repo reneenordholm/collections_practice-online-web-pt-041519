@@ -25,3 +25,4 @@ def kesha_maker(array)
  end
  new_array
 end
+end
