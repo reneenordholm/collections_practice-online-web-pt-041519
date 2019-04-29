@@ -33,5 +33,4 @@ end
 
 def add_s(array)
   array.each { |name| name[-1] = "s" }
-  }
 end
