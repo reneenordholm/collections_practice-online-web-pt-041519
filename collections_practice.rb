@@ -24,4 +24,3 @@ def kesha_maker(array)
   array.each { |name| new_array << name[2] = "$" }
  end
   return new_array
-end
