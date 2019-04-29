@@ -32,5 +32,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each { |name| name("s") }
+  array.collect { |word| array[1] == word ? word :  word + "s" }
 end
