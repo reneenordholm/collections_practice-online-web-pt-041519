@@ -33,4 +33,7 @@ end
 
 def add_s(array)
   array.each_with_index { |element, index|
-   index[0..1]  ""
+   index[0..1] = element + "s"
+   index[2] = element
+   index[3..-1] = element + "s"
+end
